@@ -5,6 +5,7 @@
     padding: 0;
     box-sizing: border-box;
     scroll-behavior: smooth;
+   
 }
 /*
 5790c9 
@@ -429,6 +430,7 @@ section {
 } 
 .projects{
     /* padding-top: 100px; */
+    width: 100%;
     display: grid;
     grid-template-columns: 1fr; /* 1 column */
     grid-template-rows: 1fr 1fr; /* 2 rows with equal height */
@@ -436,7 +438,7 @@ section {
     /*display: flex;
     align-items: center;*/
     background-color: #15111a;
-    background: url("portfolio2222.svg") no-repeat; 
+    background: url("portfolio2.svg") no-repeat; 
     background-size:cover ; 
     background-position: center;
     background-attachment: fixed;
